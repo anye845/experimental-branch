@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<TextView
+    android:id="@+id/pc1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="10dp"
+    android:text="PC1"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/pc2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pc1"
+    android:layout_marginTop="10dp"
+    android:text="PC2"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/pc3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pc2"
+    android:layout_marginTop="10dp"
+    android:text="PC3"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/pc4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pc3"
+    android:layout_marginTop="10dp"
+    android:text="PC4"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/pc5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pc4"
+    android:layout_marginTop="10dp"
+    android:text="PC5"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/pc6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pc5"
+    android:layout_marginTop="10dp"
+    android:text="PC6"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/switch1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pc6"
+    android:layout_marginTop="10dp"
+    android:text="Switch"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/ps4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/switch1"
+    android:layout_marginTop="10dp"
+    android:text="PS4"
+    android:textSize="50sp" />
+
+<Button
+    android:id="@+id/btn1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="150dp"
+    android:layout_marginTop="20dp"
+    android:layout_toEndOf="@+id/pc1"
+    android:text="Reservation" />
+
+<Button
+    android:id="@+id/btn2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn1"
+    android:layout_marginStart="150dp"
+    android:layout_marginTop="30dp"
+    android:layout_toEndOf="@+id/pc2"
+    android:text="Reservation" />
+
+<Button
+    android:id="@+id/btn3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn2"
+    android:layout_marginStart="150dp"
+    android:layout_marginTop="30dp"
+    android:layout_toEndOf="@+id/pc3"
+    android:text="reservation" />
+
+<Button
+    android:id="@+id/btn4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn3"
+    android:layout_marginStart="150dp"
+    android:layout_marginTop="30dp"
+    android:layout_toEndOf="@+id/pc4"
+    android:text="reservation" />
+
+<Button
+    android:id="@+id/btn5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn4"
+    android:layout_marginStart="150dp"
+    android:layout_marginTop="30dp"
+    android:layout_toEndOf="@+id/pc5"
+    android:text="reservation" />
+
+<Button
+    android:id="@+id/btn6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn5"
+    android:layout_marginStart="150dp"
+    android:layout_marginTop="30dp"
+    android:layout_toEndOf="@+id/pc6"
+    android:text="reservation" />
+
+<Button
+    android:id="@+id/btn7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn6"
+    android:layout_marginStart="95dp"
+    android:layout_marginTop="30dp"
+    android:layout_toEndOf="@+id/switch1"
+    android:text="reservation" />
+
+<Button
+    android:id="@+id/btn8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn7"
+    android:layout_marginStart="155dp"
+    android:layout_marginTop="30dp"
+    android:layout_toEndOf="@+id/ps4"
+    android:text="reservation" />
+
+</RelativeLayout>

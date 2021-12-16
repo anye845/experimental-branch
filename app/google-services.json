@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "597755904188",
+    "project_id": "gamlab-b6367",
+    "storage_bucket": "gamlab-b6367.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597755904188:android:dbfa78ec01d3e68e31d0b9",
+        "android_client_info": {
+          "package_name": "com.example.gamlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597755904188-ei8itfbb9lsaqveqnunursue78ep2jkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsvEqZnWiJJ_MVrJrqy6B-CDeMMXfzPMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597755904188-ei8itfbb9lsaqveqnunursue78ep2jkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
